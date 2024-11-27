@@ -30,4 +30,20 @@ public class MenuItem {
     public String toString() {
         return String.format("%s | W %.1f | %s", name, price, description);
     }
+
+    /**
+     * Gets the price of the menu item
+     * @return The price as a double
+     */
+    public double getPrice() {
+        return price;
+    }
+
+    /**
+     * Gets the Name of the menu item
+     * @return The name as a string
+     */
+    public String getName() {
+        return name;
+    }
 }

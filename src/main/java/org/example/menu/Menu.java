@@ -33,7 +33,7 @@ public class Menu {
      * @return List of MenuItem objects
      */
     public List<MenuItem> getItems() {
-        return items;
+        return List.copyOf(items);
     }
 
     /**
